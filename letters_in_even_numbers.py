@@ -23,4 +23,4 @@ length = len(word_given)
 # adding a loop
 print("Printing only even index:")
 for letters in range(0, length- 1, 2):
-    print(length[letters])
+    print(word_given[letters])
