@@ -13,5 +13,14 @@
 # v
 
 # pseudocode
+# Adding an input function so that it can accept a string from the user
 word_given = str(input("Enter your word: "))
 print(word_given)
+
+# Length of the word
+length = len(word_given)
+
+# adding a loop
+print("Printing only even index:")
+for letters in range(0, length- 1, 2):
+    print(length[letters])
